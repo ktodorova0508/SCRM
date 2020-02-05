@@ -7,7 +7,6 @@ NB! For the manual test cases, please check the "Test Cases" file in the SCRM re
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -34,6 +33,7 @@ method is executed.
 * Selenium - version 3.6.0
 * TestNG - version 6.14.3
 * Maven - version 3.5.1
+- Chrome Browser - version doesn't matter
 
 ## Setup
 In order to deploy the project to a local environement, one needs to:
@@ -42,6 +42,10 @@ In order to deploy the project to a local environement, one needs to:
 - Have installed TestNG 
 - Have installed Maven
 - Have installed IDE like Eclipse or IntelliJ
+- Have installed Chrome Browser, along with chromedriver.exe which driver should be placed local on the machine the code is executed on.
+After the driver is downloaded in certain folder, in the class PlayYoutubeVideo.java >> method  `setUp()` >> the driver location must be
+changed in the below piece of code:
+`System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chrome\\chromedriver.exe");`
 
 
 ## Code Examples
