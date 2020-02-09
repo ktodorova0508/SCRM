@@ -1,7 +1,7 @@
 # LIDL SCRM
 > The project consist of one automation script which tends to open a video in youtube.com
 
-NB! For the manual test cases, please check the "Test Cases" file in the SCRM repository.
+NB! For the manual test cases, please check the README_MANUAL and "Test Cases" files in the SCRM repository.
 
 ## Table of contents
 * [General info](#general-info)
